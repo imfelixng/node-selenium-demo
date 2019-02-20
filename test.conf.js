@@ -1,7 +1,9 @@
 exports.config = {
-  spec: [], //chứa các test script cần test
+  specs: [
+    'test_scripts/open-page.js'
+  ], //chứa các test script cần test
   host: 'localhost',
-  port: 4444,
+  port: 9515,
   path: '/',
   capabilities: [
     {
@@ -13,5 +15,5 @@ exports.config = {
     ui: 'bdd',
     timeout: 680800
   },
-  logLevel: 'verbose',
+  logLevel: 'error',
 }
