@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^11.9.4",
+    "@types/webdriverio": "^5.0.0",
     "mocha": "^6.0.0",
     "wdio-mocha-framework": "^0.6.4",
     "wdio-selenium-standalone-service": "^0.0.12",

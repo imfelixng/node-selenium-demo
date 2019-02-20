@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@types/node@^11.9.4":
+  version "11.9.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-11.9.4.tgz#ceb0048a546db453f6248f2d1d95e937a6f00a14"
+  integrity sha512-Zl8dGvAcEmadgs1tmSPcvwzO1YRsz38bVJQvH1RvRqSR9/5n61Q1ktcDL0ht3FXWR+ZpVmXVwN1LuH4Ax23NsA==
+
+"@types/webdriverio@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@types/webdriverio/-/webdriverio-5.0.0.tgz#9a46fbd8ba2f44ed40d1efa2e1bd8ac0cfd36a3f"
+  integrity sha512-x4XylDdijSMmhvpyFdQ6/Ow1CvJBY1Z38MnK3gAtGDy3MnR3AnI8CW9O5B8Q0PNLgLAMA466ghsolhb7+xaZ/Q==
+  dependencies:
+    webdriverio "*"
+
 "@wdio/config@^5.4.18":
   version "5.4.18"
   resolved "https://registry.yarnpkg.com/@wdio/config/-/config-5.4.18.tgz#5b79aeb08ffe3b4f9b70300b38f332abb1ef6e5f"
@@ -2056,7 +2068,7 @@ webdriver@^5.4.18:
     lodash.merge "^4.6.1"
     request "^2.83.0"
 
-webdriverio@^5.4.19:
+webdriverio@*, webdriverio@^5.4.19:
   version "5.4.19"
   resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-5.4.19.tgz#1c716bb7396b848e9298297445d858ef427c3135"
   integrity sha512-zwsvDEKJyh2P8bLUT4pIoaYl8UmnBqRoufVZObG+OKXo0wnBtaDkK0ORnmwpJfwdSTGBZPk3/OgEy6XJgdaqfQ==
