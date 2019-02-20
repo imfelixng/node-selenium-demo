@@ -1,0 +1,18 @@
+{
+  "name": "node-selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.0.0",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "^0.0.12",
+    "webdriverio": "^5.4.19"
+  }
+}
